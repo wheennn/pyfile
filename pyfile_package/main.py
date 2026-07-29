@@ -1,4 +1,4 @@
-# pyfile — v0.1 (WIP)
+# pyfile — v0.1
 # Est. 17.07.26
 # by wheen
 
