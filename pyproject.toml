@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfile"
+version = "0.1"
+description = "TUI file exlporer tool"
+dependencies = [
+    "keyboard",
+]
+
+[project.scripts]
+pyfile = "pyfile_package.main:main"
+
+[tool.setuptools]
+packages = ["pyfile_package"]

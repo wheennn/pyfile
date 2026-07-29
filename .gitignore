@@ -1,0 +1,15 @@
+# Python's virtual environment folder
+.venv/
+
+# IDE system folders
+.idea/
+.vscode/
+
+# Package's cache folder
+pyfile.egg-info/
+
+# Requirements plain text files
+requirements.txt
+
+# Any Python's module cache
+*__pycache__*
