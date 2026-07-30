@@ -5,7 +5,10 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pyfile"
 version = "0.1"
-description = "TUI file exlporer tool"
+authors = [ { name = "wheennn" } ]
+license = "MIT"
+license-files = ["LICENSE"]
+description = "Minimalistic TUI file explorer utility for devs"
 dependencies = [
     "keyboard",
 ]
@@ -15,3 +18,6 @@ pyfile = "pyfile_package.main:main"
 
 [tool.setuptools]
 packages = ["pyfile_package"]
+
+[project.urls]
+Homepage = "https://github.com/wheennn/pyfile"
