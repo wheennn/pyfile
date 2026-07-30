@@ -5,11 +5,15 @@
 .idea/
 .vscode/
 
-# Package's cache folder
+# Cache folder of package
 pyfile.egg-info/
 
-# Requirements plain text files
-requirements.txt
-
-# Any Python's module cache
+# Python cache folders
 *__pycache__*
+
+# Setuptools & PyInstaller artifact folders
+dist/
+build/
+
+# File with text of all releases on GH
+releases.md
